@@ -9,6 +9,8 @@
 </p>
 <hr width=150>
 
+![introduction](assets/introduction.png)
+
 #### 致谢 [原仓库地址](https://github.com/yitd/juso.vip)
 
 </div>
