@@ -217,7 +217,7 @@ ul {
     display: inline-block;
     width: 25px;
     height: 15px;
-    background: url(assets/images/off_on.png) no-repeat 0 0;
+    background: url(./assets/images/off_on.png) no-repeat 0 0;
     cursor: pointer
 }
 
@@ -633,7 +633,6 @@ header .animated2 .bottom {
     }
 
     .search-hot-text {
-        max-height: 200px;
         width: 559px;
         margin-left: 10px
     }
