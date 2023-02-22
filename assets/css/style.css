@@ -177,7 +177,7 @@ ul {
 
 .search-engine {
     position: absolute;
-    top: 60px;
+    top: 50px;
     left: 0;
     width: 100%;
     background: #fff;
@@ -217,7 +217,7 @@ ul {
     display: inline-block;
     width: 25px;
     height: 15px;
-    background: url(./assets/images/off_on.png) no-repeat 0 0;
+    background: url(https://raw.githubusercontent.com/ooyq/search/main/assets/images/off_on.png) no-repeat 0 0;
     cursor: pointer
 }
 
@@ -256,9 +256,9 @@ ul {
     margin-top: 2.5px
 }
 
-.search-engine ul::before {
+/* .search-engine ul::before {
     content: '';
-    width: 0;
+    width: 0px;
     height: 0;
     position: absolute;
     top: -15px;
@@ -266,7 +266,7 @@ ul {
     border-right: 8px solid transparent;
     border-bottom: 8px solid #fff;
     border-left: 8px solid transparent
-}
+} */
 
 
 .hidden-xs {
