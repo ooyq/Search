@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>聚合搜索</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="content" data-customize="true" data-customtheme="true" class="default-bg">
+        <div class="main-index">
+            <div class="container content-box">
+                <div class="search">
+                    <div class="search-box">
+                        <img class="search-icon" src="assets/images/baidu.png">
+                        <input type="search" id="txt" class="search-input" autofocus="autofocus">
+                    </div>
+                    <div class="box search-hot-text" id="box" style="display: none;">
+                        <ul></ul>
+                    </div>
+                    <div class="welcome-box" v-else>
+                        <h1>聚合搜索</h1>
+                        <p>一款页面简洁聚合全网搜索引擎的综合搜索</p>
+                        <hr class="min">
+                        <p>
+                            聚合全球24个搜索引擎<br>
+                            支持搜索联想开关<br>
+                            记住选择的默认搜索引擎
+                        </p>
+                        <hr class="min">
+                        <br>
+                        <p style="color:gold">搜索结果全部来自于用户，观点与个人无关</p>
+                        <p>
+                            <span class="point">·</span>
+                            <a href="https://github.com/ooyq" target="_blank">GitHub</a>
+                            <span class="point">·</span>
+                        </p>
+                        
+                    </div>
+                    <div class="search-engine" style="display: none;">
+                        <div class="search-engine-head"><strong class="search-engine-tit">默认搜索引擎：</strong>
+                            <div class="search-engine-tool">搜索联想：<span id="hot-btn" class="off"></span></div>
+                        </div>
+                        <ul class="search-engine-list"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer text-center ">
+            <div class="container">
+                <p>Copyright ©2023 聚合搜索</p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
